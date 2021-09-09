@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(https://cs.money/img/main/webp/header-bg.webp)
+}
+.herdead {
+    height: 70px;
+    margin-bottom: 73px;
+}
+.herdead-container {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    padding: 0px 80px;
+}
+.herdead-navbar {
+    display: flex;
+    color: #fff;
+    margin-top: 25px;
+    margin-left: 37rem;
+}
+.herdead-navbar li{
+    list-style: none;
+    margin-left: 16px;
+    margin-right: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.bnt {
+    background-color: #7668cb;
+    color: #fff;
+    border-color: #7668cb;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 40rem;
+}
+.bnt:hover {
+    background: #9b8ceb;
+}
+.product {
+    flex-wrap: wrap;
+}
+.proflex {
+    display: flex;
+}
+.container {
+    justify-content: center;
+    line-height: 10px;
+}
+.merch {
+    margin: 10px;
+    box-shadow: 0px 2px 16px rgb(0 0 0 / 16%);
+    border-radius: 2px;
+    padding: 16px;
+    background: #141821;
+    height: 323px;
+    cursor: pointer;
+    width: min-content;
+}
+.merch:hover {
+    background-color: #81818a;
+}
+.merch-img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: -3.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+    margin-top: -2.5rem;
+    background: radial-gradient(circle,rgba(30,75,97,1) 0%,rgba(20,24,33,0) 70%);
+}
+.sticker {
+    width: 40px;
+    height: 30px;
+    display: flex;
+    padding-top: 5px;
+    padding-left: 8px;
+    justify-content: left;
+}
+.descrip {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+.float-line {
+    display: flex;
+    margin-top: -3.25rem;
+}
+.blue {
+    background-color: #0277bd;
+    width: 2rem;
+    height: 5px;
+    border-radius: px;
+    margin-top: 65px;
+    margin-bottom: 0;
+    margin-left: -1rem;
+}
+.green {
+    background-color: #4caf50;
+    width: 20px;
+    height: 5px;
+    margin-top: 65px;
+    margin-bottom: 0;  
+}
+.yellow {
+    background-color: #f6bb42;
+    width: 2.5rem;
+    height: 5px;
+    margin-top: 65px;
+    margin-bottom: 0;  
+}
+.orange {
+    background-color: #fb8c00;
+    width: 15px;
+    height: 5px;
+    margin-top: 65px;
+    margin-bottom: 0;  
+}
+.red {
+    background-color: #e53935;
+    width: 8rem;
+    height: 5px;
+    margin-top: 65px;
+    margin-bottom: 0; 
+    margin-right: -15.52px; 
+}
